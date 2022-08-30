@@ -61,12 +61,12 @@ h1 {
   color: #dd4b39;
 }
 
-.fa-instagram {
-  color: #517fa4;
+.fa-github {
+  color: #000000;
 }
 
-.fa-youtube {
-  color: #bb0000;
+.fa-linkedin {
+  color: #0047ab;
 }
 
 footer {
@@ -75,6 +75,13 @@ footer {
   padding-top: 2rem;
 }
 
+.expand {
+  transition: all .2s ease-in-out;
+}
+
+.expand:hover {
+  transform: scale(1.1);
+}
 @media (min-width: 320px) {
   .carousel-caption {
     top: 30%;
